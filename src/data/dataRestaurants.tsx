@@ -1,0 +1,29 @@
+export const dataRestaurants = [
+    {
+        id:0,
+        img:"/img/restaurante.webp",
+        name:"Nombre",
+        width:164,
+        height:239,
+        especialidad:"Especialidad",
+        ubicacion:"ubicacion"
+    },
+    {
+        id:1,
+        img:"/img/restaurante2.webp",
+        name:"Nombre",
+        width:164,
+        height:239,
+        especialidad:"Especialidad",
+        ubicacion:"ubicacion"
+    },
+    {
+        id:2,
+        img:"/img/restaurante3.webp",
+        name:"Nombre",
+        width:164,
+        height:239,
+        especialidad:"Especialidad",
+        ubicacion:"ubicacion"
+    },
+]

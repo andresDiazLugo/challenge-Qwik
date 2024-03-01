@@ -35,7 +35,7 @@ export const Carousel = component$(({ dataCard, title, img, renderCardNumber = 4
                     <div id="wrapper" class="max-w-[1100px] w-full  relative m-auto">
                         <ul id="carouselComponent" class={`w-full grid grid-flow-col grid-cols-auto gap-[70px] scroll-snap-type-x-mandatory p-0 scroll-behavior-smooth scrollbar-hidden overflow-y-hidden overflow-x-hidden`} style={`grid-auto-columns:calc((100% / ${renderCardNumber}) - 52px);`}>
                         {dataCard.map( ({ img, id, width, height }) => (
-                            <li class="cursor-pointer rounded-lg bg-white h-[400px]" key={id}>
+                            <li class="cursor-pointer rounded-lg" key={id}>
                                 <img width={width} height={height} class="w-full h-auto object-cover rounded-lg" src={img} alt={`Carousel Image ${id}`}/>
                             </li>
                         ))}

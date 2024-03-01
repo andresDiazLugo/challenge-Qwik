@@ -3,7 +3,7 @@ import { Link } from '@builder.io/qwik-city';
 
 export const SectionRegister = component$(() => {
   return (
-  <section class="flex flex-col lg:flex-row gap-[16px] mt-14">
+  <section class="flex flex-col lg:flex-row gap-[16px] mt-14 mb-16">
     <div class="w-full lg:w-[800px] h-[376px] bg-[#1E1E1E] flex flex-col justify-center gap-[16px]">
         <div class="flex justify-center items-center gap-[40px]">
             <Link class="text-[16px] font-[700] w-[151px] pt-[8px] pr-[16px] pb-[8px] pl-[16px] bg-primary text-[#1E1E1E] text-center rounded-[5px] border-none" href='#'>Chef</Link>

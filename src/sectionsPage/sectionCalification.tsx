@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 
 export const SectionCalification = component$(() => {
   return( 
-  <section class="grid grid-cols-auto  lg:grid-cols-3">
+  <section class="grid grid-cols-auto  lg:grid-cols-3 ">
     <div class="h-[402px] bg-white">
         <img width="478" height="402" class="object-cover w-full h-full" src='/img/platoCalification.webp' alt="platillo-1"/>
     </div>
